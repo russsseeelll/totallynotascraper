@@ -88,7 +88,6 @@ class App:
         driver.get('https://rustlabs.com/skins')
 
         total_items = None
-        # Scroll once at the start to load the total items count
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time.sleep(2)
 
